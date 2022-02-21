@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import React from "react";
 import { motion } from "framer-motion";
 import Typical from "react-typical";
@@ -48,7 +49,7 @@ export default function Home() {
           <div className="dashboard w-[80px] flex-[1] flex flex-col items-center justify-evenly bg-gradient-to-br from-Baslangic-rgba to-Bitis-rgba rounded-[2rem]">
             <div className="user text-center ">
               <br />
-              <img
+              <Image
                 className="h-[100px] w-[120px] rounded-[2rem]"
                 src="./images/img.jpeg"
                 alt=""
@@ -114,7 +115,7 @@ export default function Home() {
             <a href="mailto:esendogukan@hotmail.com">
               <div className="pro bg-gradient-to-tr from-[#65dfc9] to-[#6cdbeb] rounded-[2rem] bg-white p-[1rem] relative">
                 <h2>Hiring !</h2>
-                <img src="./images/hiring.png" alt="" />
+                <Image src="./images/hiring.png" alt="" />
               </div>
             </a>
           </div>
@@ -134,7 +135,7 @@ export default function Home() {
               <br />
               <h3 className="text-black">
                 <b>
-                  Hi, My name is Doğukan. I'm a full-stack devoloper. I am a
+                  Hi, My name is Doğukan. Im a full-stack devoloper. I am a
                   computer engineering student at Izmir Bakırçay University.
                 </b>
               </h3>
